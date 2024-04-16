@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+body{
+    background-color: #93c493;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    margin-top: -20px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    /*margin: -8px;*/
+    padding: 5px 10px; 
+    background-image: linear-gradient(to top, #025502, #6fad6f );
+}
+header>h1{
+    margin: 15px auto 10px auto;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header>p{
+    margin: 3px auto;
+    height: 50px;
+    width: 400px;
+    font-size: 0.9em;
+    font-weight: 100;
+    text-align: center;
+}
+header>nav{
+    padding: 3px;
+    text-align: left;
+}
+nav>a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+nav>a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+main{
+    margin: 0px 100px;
+    padding: 10px 5px;
+    background-color: white;
+}
+article{
+
+}
+article>h2{
+    margin-top: 0px;
+    font-family: 'android';
+    color: #025502
+}
+article>h3{
+    background-image: linear-gradient(to right, #a4caa491, #ffffff);
+    font-family: 'android';
+    color:#338d33;
+}
+article>p{
+    padding: 3px;
+    text-align: justify;
+}
+iframe{
+    margin-bottom: 5px;
+    padding: 20px;
+    background-color: #025502;
+}
+
+section{
+    margin: 5px;
+    padding: 5px;
+    background-color: #abe0ab;
+    border-radius: 8px 8px 0px 0px;
+}
+section>h2{
+    margin: -5px;
+    padding: 5px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #668666;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+ul{
+    display: inline-block;
+}
+section>p{
+    text-align: justify;
+}
+
+p{
+    text-indent: 30px;
+}
+
+footer{
+    margin: 0px -8px;
+    padding: 1px;
+    background-color: #025502;
+    font-size: 0.7em;
+    color: white;
+}
+footer>p{
+    margin: 2px;
+    text-align: center;
+}
+footer>p>span{
+    font-weight: bold;
+}
